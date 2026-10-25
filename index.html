@@ -208,7 +208,7 @@
       <button class="close-btn" id="closeLetter" type="button">Đóng ✕</button>
       <div class="sr-only" aria-live="polite">Lá thư chúc mừng sinh nhật đã được mở</div>
       <h2>💌 Gửi em Hương Giang</h2>
-      <p>Giang à, sinh nhật vui vẻ nhé em! Chúc em bước sang tuổi mới thật rạng rỡ, ngọt ngào như chiếc kẹo hồng và có thật nhiều điều đáng nhớ.</p>
+      <p>Hương Giang à, sinh nhật vui vẻ nhé em! Chúc em bước sang tuổi mới thật rạng rỡ, ngọt ngào như chiếc kẹo hồng và có thật nhiều điều đáng nhớ.</p>
       <p>Chúc em luôn mạnh khỏe, xinh tươi, tự tin theo đuổi những điều mình yêu thích. Mong những ngày phía trước mang đến cho em thật nhiều may mắn, những người bạn tốt và thật nhiều tiếng cười.</p>
       <p>Tuổi mới cứ vui vẻ, sống hết mình và giữ mãi nụ cười đáng yêu của em nhé. Happy Birthday Hương Giang! 🍭💕</p>
       <p class="letter-sign">Chúc mừng sinh nhật em!</p>
@@ -676,17 +676,17 @@
       if(name==='intro'){
         setTip('Món quà sinh nhật dành riêng cho em Hương Giang.');
         activeLabel(gift,'MỞ QUÀ');
-        setSpeech('Giang ơi, một bất ngờ dành cho em!',gift);
+        setSpeech('Hương Giang ơi, một bất ngờ dành cho em!',gift);
         updateCameraGoal(new THREE.Vector3(8.2,5.4,12.6),new THREE.Vector3(2.8,1.6,.7));
       }else if(name==='island'){
         setTip('Chạm vào nhân vật để tiếp tục.');
         activeLabel(avatar,'KHÁM PHÁ');
-        setSpeech('Chúc mừng sinh nhật em Giang!',avatar);
+        setSpeech('Chúc mừng sinh nhật em Hương Giang!',avatar);
         updateCameraGoal(new THREE.Vector3(7.1,4.8,10.8),new THREE.Vector3(1.6,1.7,.6));
       }else if(name==='greeting'){
         setTip('Nhìn quanh rồi khám phá tiếp.');
         activeLabel(avatar,'TIẾP TỤC');
-        setSpeech('Vẫn còn bất ngờ phía trước đó, Giang!',avatar);
+        setSpeech('Vẫn còn bất ngờ phía trước đó, Hương Giang!',avatar);
         updateCameraGoal(new THREE.Vector3(6.6,4.6,9.2),new THREE.Vector3(.4,1.8,.1));
       }else if(name==='explore'){
         setTip('Chạm vào bánh sinh nhật để bắt đầu điều ước.');
@@ -697,7 +697,7 @@
       }else if(name==='cakeZoom'){
         setTip('Chạm vào bánh để cắm từng cây nến.');
         activeLabel(cake,'CẮM NẾN 1/5');
-        setSpeech('Cùng cắm 5 cây nến nhé, Giang!',cake);
+        setSpeech('Cùng cắm 5 cây nến nhé, Hương Giang!',cake);
         updateCameraGoal(new THREE.Vector3(8.2,3.5,5.7),new THREE.Vector3(5.9,1.35,1.48));
         cakeHover.visible=true;
       }else if(name==='micPrompt'){
@@ -711,7 +711,7 @@
       }else if(name==='song'){
         setTip('Giai điệu Happy Birthday đang phát.');
         activeLabel(cake,'HAPPY BIRTHDAY');
-        setSpeech('Chúc mừng sinh nhật em Giang!',cake);
+        setSpeech('Chúc mừng sinh nhật em Hương Giang!',cake);
       }else if(name==='letter'){
         setTip('Lá thư đã xuất hiện, chạm để mở lời chúc.');
         activeLabel(letter,'MỞ LÁ THƯ');
